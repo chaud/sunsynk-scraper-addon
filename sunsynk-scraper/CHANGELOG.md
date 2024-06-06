@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.17
+
+- Added support for Region 3 (My Sol-Ark)
+
 ## 0.2.15
 
 - Added support for Region 2
