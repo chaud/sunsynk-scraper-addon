@@ -2,6 +2,8 @@ name: Builder
 permissions:
   contents: read
   packages: write
+  attestations: write
+  id-token: write
 
 env:
   BUILD_ARGS: "--test"
