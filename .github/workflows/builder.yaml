@@ -71,10 +71,7 @@ jobs:
         addon: ${{ fromJson(needs.init.outputs.changed_addons) }}
         arch: ["aarch64", "amd64", "armhf", "armv7", "i386"]
     permissions:
-      contents: read
-      packages: write
-      attestations: write
-      id-token: write
+      write-all
     steps:
       - name: Check out repository
         uses: actions/checkout@v3.3.0
