@@ -38,4 +38,4 @@ schema:
   battery_discharge_rate: float(0.1,100)
   battery_min_state_of_charge: int(1,100)
   region: int(1,3)
-image: "ghcr.io/thepheonixguy/{arch}-addon-sunsynk-scraper"
+image: "ghcr.io/chaud/{arch}-addon-sunsynk-scraper"
