@@ -4,19 +4,19 @@ import configuration
 login_endpoints = {
     1: 'https://pv.inteless.com/oauth/token',
     2: 'https://api.sunsynk.net/oauth/token',
-    3: 'https://www.solarkcloud.com/oauth/token'
+    3: 'https://api.solarkcloud.com/oauth/token'
 }
 
 plants_endpoints = {
     1: 'https://pv.inteless.com/api/v1/plants?page=1&limit=10&name=&status=',
     2: 'https://api.sunsynk.net/api/v1/plants?page=1&limit=10&name=&status=',
-    3: 'https://www.solarkcloud.com/api/v1/plants?page=1&limit=10&name=&status='
+    3: 'https://api.solarkcloud.com/api/v1/plants?page=1&limit=10&name=&status='
 }
 
 energy_base_urls = {
     1: 'https://pv.inteless.com/api/v1/plant/energy/',
     2: 'https://api.sunsynk.net/api/v1/plant/energy/',
-    3: 'https://www.solarkcloud.com/api/v1/plant/energy/'
+    3: 'https://api.solarkcloud.com/api/v1/plant/energy/'
 }
 
 flow_chart_endpoint = "flow"
