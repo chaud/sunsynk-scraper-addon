@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.18
+
+- Update Region 3 endpoints
+
 ## 0.2.17
 
 - Added support for Region 3 (My Sol-Ark)
